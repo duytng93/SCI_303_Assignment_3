@@ -26,13 +26,13 @@ int main() {
 
 	bool result;									//question 2
 	result = is_palindrome("abcd 123");						//funtion is_palindrome take a string as a parementer
-	cout << "abcd 123 is a palindrome : " << boolalpha << result <<endl;
+	cout << "\"abcd 123\" is a palindrome : " << boolalpha << result <<endl;
 	result = is_palindrome("");
-	cout << "empty is a palindrome: " << boolalpha << result << endl;
+	cout << "an empty string is a palindrome: " << boolalpha << result << endl;
 	result = is_palindrome("z");
-	cout << "z is a palindrome: " << boolalpha << result << endl;
+	cout << "\"z\" is a palindrome: " << boolalpha << result << endl;
 	result = is_palindrome("abba abba");
-	cout << "abba abba is a palindrome: " << boolalpha << result;
+	cout << "\"abba abba\" is a palindrome: " << boolalpha << result;
 	cout << endl << endl << "===========================================" << endl << endl;
 
 	//////////////////////////////////////////////////////////////////////////////////
